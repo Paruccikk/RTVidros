@@ -15,7 +15,7 @@ a:hover {
 }
 
 header {
-  margin-bottom: -90px;
+  margin-bottom: -20px;
 }
 
 
@@ -237,10 +237,10 @@ section {
 }
 
 .category p {
-  margin-top: 20px;
-  font-size: 1.0rem;
-  font-weight: bold;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .category1 {
@@ -321,4 +321,8 @@ section {
 
 .btn-saiba-mais:hover {
   background-color: #06032eb9;
+}
+
+body {
+  zoom: 0.9;
 }
