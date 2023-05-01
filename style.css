@@ -32,6 +32,14 @@ body {
   letter-spacing: 4px;
 }
 
+main {
+  background: url("/img/") no-repeat center center;
+  background-size: cover;
+  height: 92vh;
+  background-color: #f1f1f1;
+  padding-bottom: 300px; /* Defina aqui o espaçamento desejado */
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -39,14 +47,6 @@ nav {
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background: #23232e;
   height: 8vh;
-}
-
-main {
-  background: url("/img/") no-repeat center center;
-  background-size: cover;
-  height: 92vh;
-  background-color: #f1f1f1;
-  padding-bottom: 300px; /* Defina aqui o espaçamento desejado */
 }
 
 .nav-list {
@@ -251,3 +251,4 @@ section {
   font-weight: bold;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
