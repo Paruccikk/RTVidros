@@ -5,29 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <title>R.T Vidros</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Index.css" />
     <link rel="icon" href="logo.png" type="image/x-icon">
     <script src="mobile-navbar.js"></script>
   </head>
 
   <body>
     <header>
-
       <nav>
-        <a class="logo" href="index.html">R.T Vidros</a>
-        <div class="mobile-menu" onclick="toggleMenu()">
+        <a class="logo" href="Index.html"> R.T Vidros </a>
+        <div class="mobile-menu">
           <div class="line1"></div>
           <div class="line2"></div>
           <div class="line3"></div>
         </div>
-        <ul id="menu" class="nav-list">
-          <li><a href="index.html">Início</a></li>
+        <ul class="nav-list">
+          <li><a href="Index.html">Início</a></li>
+          <li><a href="Sobre Nós.html">Sobre</a></li>
           <li><a href="Contato.html">Contato</a></li>
-          <li><a href="Sobre Nós.html">Sobre Nós</a></li>
         </ul>
       </nav>
-      
-
     </header>
 
       <div class="footer-container">
@@ -92,6 +89,12 @@
               <section>
                 <center>
                   <button id="meu-botao" style="background-color: #d47d0b; color: rgb(255, 255, 255); font-size: 16px; padding: 12px 24px; margin-top: 50px; border-radius: 8px;">Buscar Rota</button>
+<script>
+document.getElementById("meu-botao").addEventListener("click", function() {
+  window.location.href = "https://www.google.com/maps/dir/-23.7384656,-46.660879/r.t+vidros/@-23.7439393,-46.675108,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94ce49267118f53d:0x447ae1d28de48652!2m2!1d-46.6725994!2d-23.7507062?hl=pt-BR";
+});
+</script>
+
                     <br>
                   <br>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116861.01447150331!2d-46.74263724179688!3d-23.7507062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce49267118f53d%3A0x447ae1d28de48652!2sRt.vidros!5e0!3m2!1spt-BR!2sbr!4v1682919388217!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -119,6 +122,7 @@
     <div class="footer-bottom"></div>
 
   </div>
+</header>
 </body>
 
 <script>
