@@ -128,12 +128,23 @@ main {
   transform: rotate(45deg) translate(-5px, -7px);
 }
 
+
+
 footer {
   background-color: #f1f1f1;
   color: #000000;
   padding: 40px;
   align-items: center;
-  min-height: 100px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1 0 auto;
 }
 
 .footer-top {
@@ -142,6 +153,11 @@ footer {
   justify-content: space-between;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 0px;
 }
 
 .footer-logo img {
@@ -155,10 +171,7 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.footer-bottom {
-  text-align: center;
-  margin-top: 0px;
-}
+
 
 a[target="_blank"] {
   color: #da7b0e;
