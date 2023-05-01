@@ -65,6 +65,18 @@ main {
   transition: 0.3s;
 }
 
+@media (max-width: 768px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-links {
+    display: none;
+  }
+}
+
+
 @media (max-width: 999px) {
   body {
     overflow-x: hidden;
