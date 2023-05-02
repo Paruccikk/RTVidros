@@ -1,0 +1,136 @@
+body {
+  color: rgb(24, 202, 193);
+  background-color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 10vh;
+  display: flex;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  padding: 16px;
+}
+
+a {
+  color: rgb(24, 202, 193);
+  text-decoration: none;
+}
+
+header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #12d3c9;
+}
+
+.center {
+  text-align: center;
+}
+
+h1 {
+  color: #42b0be;
+}
+
+
+
+
+footer {
+  background-color: #000000;
+  color: #17bfdd;
+  padding: 40px;
+  align-items: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.footer-logo img {
+  height: 100px;
+  align-items: center;
+}
+
+.footer-contact p {
+  margin: 0;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+a[target="_blank"] {
+  color: #da7b0e;
+}
+
+
+
+.container {
+  padding: 0px 50px;
+}
+
+nav a {
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: #5BBE42;
+}
+
+.contact-form input{
+  width: 100%;
+  padding: 8px 0;
+  margin: 8px 0;
+}
+
+.contact-form input[type=text] {
+  height: 100px;
+}
+
+button {
+  color: rgb(0, 0, 0);
+  background-color: rgb(40, 41, 40);
+  border: none;
+  width: 100px;
+  height: 30px;
+}
+
+.btn-saiba-mais {
+  display: inline-block;
+  background-color: #292827;
+  color: #07d6f1;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.btn-saiba-mais:hover {
+  background-color: #0a2e03b9;
+}
