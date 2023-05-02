@@ -410,11 +410,21 @@ body {
 .titulo {
   font-family: Arial, sans-serif;
   font-size: 24px;
-  color: rgb(8, 8, 136);
+  color: rgb(8, 136, 136);
 }
 
 .aviso {
   font-size: 3em; /* Aumenta o tamanho da fonte para 3 vezes o tamanho padrão */
   color: rgb(8, 136, 136);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.videos-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video-wrapper {
+  flex: 1;
+  margin: 10px;
 }
