@@ -443,13 +443,13 @@ body {
 
     .category2 {
       /* ajusta o tamanho do contêiner */
-      width: 100%;
+      width: 150%;
       height: auto;
     }
     
     .category2 img {
       /* ajusta o tamanho da imagem */
-      width: 100%;
+      width: 150%;
       height: auto;
     }
     
