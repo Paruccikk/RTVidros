@@ -331,31 +331,25 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-  .videos-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
+.videos-container {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .video-wrapper {
-    width: 50%;
-    float: left;
-    padding: 10px;
-    box-sizing: border-box;
+.video-wrapper2, .video-wrapper3 {
+  width: 100%;
+  left: -20px; /* ajuste o valor para a posição desejada */
+  margin-top: 70px;
+  padding: 0px;
+}
 
-  }
+.video-wrapper {
+  width: 100%;
+  left: -250px; /* ajuste o valor para a posição desejada */
+  margin-top: 20px;
+  padding: 0px;
+}
 
-  .video-wrapper2 {
-    width: 50%;
-    float: left;
-    padding: 10px;
-    position: relative;
-    margin-top: 20px;
-    left: -140px; /* ajuste o valor para a posição desejada */
-    box-sizing: border-box;
-
-  }
   
   video {
     width: 50%;
