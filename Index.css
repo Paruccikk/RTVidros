@@ -386,6 +386,30 @@ body {
       display: none;
     }
 
+    .category2 {
+      /* ajusta o tamanho do contêiner */
+      width: 150%;
+      height: auto;
+    }
+    
+    .category2 img {
+      /* ajusta o tamanho da imagem */
+      width: 100%;
+      max-width: 300px;
+      margin: 10px auto;
+    }
+    
+    .category2 .category-text {
+      /* ajusta a posição do texto */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+      /* adiciona um z-index para que o texto apareça acima da imagem */
+      z-index: 1;
+    }
+
   }
 
   @media (max-width: 999px) {
