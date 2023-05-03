@@ -489,3 +489,12 @@ body {
       z-index: 1;
     }
   }
+
+  @media only screen and (max-width: 480px) {
+    .category2 .image-wrapper {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px auto;
+    }
+  }
+  
