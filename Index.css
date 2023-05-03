@@ -454,6 +454,9 @@ body {
     .video-wrapper {
       width: 100%;
     }
+    .video-wrapper2 {
+      width: 100%;
+    }
   .video-wrapper video {
     width: 100%;
     height: auto;
@@ -462,12 +465,9 @@ body {
   .video-wrapper2 video {
     width: 100%;
     height: auto;
-    display: block;
-    margin: 0 auto;
     }
-  }
+
   video {
     width: 50%;
   }
-
   }
