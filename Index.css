@@ -79,19 +79,6 @@ main {
   .footer-links {
     display: none;
   }
-
-  .video-wrapper video {
-    width: 100%;
-    height: auto;
-  }
-
-  .video-wrapper2 video {
-    width: 100%;
-    height: auto;
-    
-  }
-
-  
 }
 
 
@@ -462,3 +449,18 @@ body {
     width: 50%;
   }
   
+  
+  @media (max-width: 768px) {
+    .video-wrapper {
+      width: 100%;
+    }
+  .video-wrapper video {
+    width: 100%;
+    height: auto;
+  }
+
+  .video-wrapper2 video {
+    width: 100%;
+    height: auto;
+  }
+  }
