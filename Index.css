@@ -449,8 +449,9 @@ body {
     
     .category2 img {
       /* ajusta o tamanho da imagem */
-      width: 150%;
-      height: auto;
+      width: 100%;
+      max-width: 300px;
+      margin: 10px auto;
     }
     
     .category2 .category-text {
