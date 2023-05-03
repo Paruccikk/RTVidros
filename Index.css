@@ -456,6 +456,7 @@ body {
     }
     .video-wrapper2 {
       width: 100%;
+      left: -100px; /* ajuste o valor para a posição desejada */
     }
   .video-wrapper video {
     width: 100%;
