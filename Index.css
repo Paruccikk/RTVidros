@@ -193,6 +193,7 @@ section {
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 3px solid rgb(209, 164, 15);
 }
 
 .category p {
@@ -218,6 +219,7 @@ section {
   object-fit: cover;
   z-index: -1;
   border-radius: 20px;
+  border: 4px solid rgb(200, 223, 220);
 }
 
 .category1 p {
@@ -252,11 +254,12 @@ section {
 .category2 img {
   top: 0;
   left: 0;
-  width: 140%;
-  height: 140%;
+  width: 110%;
+  height: 110%;
   object-fit: cover;
   z-index: -1;
   border-radius: 20px;
+  border: 4px solid rgb(200, 223, 220);
 }
 
 .category2 p {
@@ -348,8 +351,8 @@ body {
     float: left;
     padding: 10px;
     position: relative;
-    margin-top: 80px;
-    left: -100px; /* ajuste o valor para a posição desejada */
+    margin-top: 20px;
+    left: -140px; /* ajuste o valor para a posição desejada */
     box-sizing: border-box;
 
   }
@@ -489,12 +492,3 @@ body {
       z-index: 1;
     }
   }
-
-  @media only screen and (max-width: 480px) {
-    .category2 .image-wrapper {
-      width: 100%;
-      max-width: 300px;
-      margin: 10px auto;
-    }
-  }
-  
