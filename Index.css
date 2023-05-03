@@ -84,6 +84,11 @@ main {
     width: 100%;
     height: auto;
   }
+
+  .video-wrapper2 video {
+    width: 100%;
+    height: auto;
+  }
 }
 
 
