@@ -435,9 +435,12 @@ body {
     width: 50%;
     float: left;
     padding: 10px;
+    position: relative;
+    margin-top: 80px;
+    left: -100px; /* ajuste o valor para a posição desejada */
     box-sizing: border-box;
   }
-
+  
   video {
     width: 50%;
   }
