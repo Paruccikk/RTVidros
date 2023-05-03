@@ -88,7 +88,10 @@ main {
   .video-wrapper2 video {
     width: 100%;
     height: auto;
+    
   }
+
+  
 }
 
 
@@ -430,8 +433,10 @@ body {
 }
 
   .videos-container {
-    width: 100%;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   .video-wrapper {
