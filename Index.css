@@ -464,15 +464,15 @@ body {
 
     .category2 {
       /* ajusta o tamanho do contêiner */
-      width: 150%;
+      width: 100%;
       height: auto;
     }
     
     .category2 img {
       /* ajusta o tamanho da imagem */
       width: 100%;
-      max-width: 300px;
-      margin: 10px auto;
+      max-width: 350px;
+      margin: 1px auto;
     }
     
     .category2 .category-text {
