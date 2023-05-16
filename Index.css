@@ -504,15 +504,14 @@ body {
     
     .video-wrapper {
       width: 100%;
-      left: -250px; /* ajuste o valor para a posição desejada */
+      left: -150px; /* ajuste o valor para a posição desejada */
       margin-top: 20px;
       padding: 0px;
     }
     
       video {
         width: 90%;
-        height: 280%;
-        padding: 10px;
+        height: 180%;
       }
     
   }
