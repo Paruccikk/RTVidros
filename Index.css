@@ -497,21 +497,21 @@ body {
     
     .video-wrapper2, .video-wrapper3 {
       width: 100%;
-      left: -0px; /* ajuste o valor para a posição desejada */
+      left: -10px; /* ajuste o valor para a posição desejada */
       margin-top: 50px;
       padding: 0px;
     }
     
     .video-wrapper {
       width: 100%;
-      left: -150px; /* ajuste o valor para a posição desejada */
+      left: -50px; /* ajuste o valor para a posição desejada */
       margin-top: 20px;
       padding: 0px;
     }
     
       video {
         width: 90%;
-        height: 180%;
+        height: 80%;
       }
     
   }
